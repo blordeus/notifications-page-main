@@ -1,0 +1,50 @@
+
+#notifications {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#mark_all {
+    cursor: pointer;
+}
+
+#mark-all:hover {
+    color: hsl(219, 85%, 26%);
+}
+
+img {
+    width: 50px;
+}
+
+.unread {
+    background-color: 'hsl(211, 68%, 94%)' !important
+}
+
+.unread p:first-of-type::after {
+   content: "";
+   background-color: red;
+   width: 10px;
+   height: 10px;
+   border-radius: 50%;
+   display: inline-block;
+}
+
+.message_card{
+    display: flex;
+    align-items: center;
+}
+
+.message{
+    padding: 1rem;
+    border: 1px solid 'hsl(205, 33%, 90%)';
+    border-radius: .3rem;
+    cursor: pointer;
+    margin: 0 0 0 5rem;
+}
+
+.message:hover{
+    background-color: 'hsl(211, 68%, 94%)';
+}
+

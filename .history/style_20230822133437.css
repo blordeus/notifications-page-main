@@ -1,0 +1,19 @@
+#notifications {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#mark_all {
+    cursor: pointer;
+}
+
+#mark-all:hover {
+    color: hsl(219, 85%, 26%);
+}
+
+img {
+    width: 50px;
+    height: 80px;
+}

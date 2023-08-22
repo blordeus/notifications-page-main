@@ -1,0 +1,14 @@
+#notifications {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#mark_all {
+    cursor: pointer;
+}
+
+#mark-all:hover {
+    color
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="output.css">
+  <title>Frontend Mentor | Notifications page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+<main class="mx-4 my-4">
+  
+    <section class="flex justify-between mb-8">
+      <div class="flex">
+        <h1 class="text-2xl">Notifications</h1>
+        <p class="ms-8 px-4 py-1 rounded-md bg-primary-blue text-white">3</p>
+      </div>
+      <p class="text-dark-gray-blue">Mark all as read</p>
+    </section>
+  
+    <section class="grid grid-rows-5 gap-6">
+      <div class="flex bg-vl-gray-blue p-4 rounded-lg">
+        <div class="ms-2 me-6">
+          <img class="" src="./assets/images/avatar-mark-webber.webp" alt="">
+        </div>
+        <div>
+          <p>Mark Webber<span class="font-medium text-dark-gray-blue"> reacted to your recent post</span> <span class="text-dark-gray-blue font-extrabold"> My first tournament today!</span></p>
+          <p class="text-dark-gray-blue">1m ago</p>
+          <div class="p-2 w-2 hidden bg-primary-red rounded-full"></div>
+        </div>
+      </div>
+
+      <div class="flex bg-vl-gray-blue p-4 rounded-lg">
+        <div class="me-6">
+          <img class="" src="./assets/images/avatar-angela-gray.webp" alt="">
+        </div>
+        <div>
+          <p>Angela Gray <span span class="font-medium text-dark-gray-blue">followed you</span></p>
+          <p class="text-dark-gray-blue">5m ago</p>
+        </div>
+      </div>
+
+      <div class="bg-vl-gray-blue p-4 rounded-lg">
+        <div>
+          <p>Jacob Thompson has joined your group Chess Club</p>
+          <p>1 day ago</p>
+        </div>
+      </div>
+      <div class="bg-vl-gray-blue p-4 rounded-lg">
+        Rizky Hasanuddin sent you a private message
+        5 days ago
+      </div>
+      <div class="bg-vl-gray-blue p-4 rounded-lg">
+        Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and
+        I'm already having lots of fun and improving my game.
+      </div>
+      <div class="bg-vl-gray-blue p-4 rounded-lg">
+        Kimberly Smith commented on your picture
+        1 week ago
+      </div>
+      <div class="bg-vl-gray-blue p-4 rounded-lg">
+        Nathan Peterson reacted to your recent post 5 end-game strategies to increase your win rate
+        2 weeks ago
+      </div>
+      <div class="bg-vl-gray-blue p-4 rounded-lg">
+        Anna Kim left the group Chess Club
+        2 weeks ago
+      </div>
+    </section>
+</main>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" rel="noopener" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</html>
